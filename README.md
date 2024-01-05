@@ -1,2 +1,2 @@
 # Assignment-
-Logic and symbolic reasoning assignment 
+school knowledge based system (ontology) 
