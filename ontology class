@@ -1,0 +1,13 @@
+entity
+1. Course:
+Attributes: Name, code, description, credit hours, prerequisites.
+Relations: Offered by department, has instructor(s), prerequisite courses.
+2. Department:
+Attributes: Name, code, description.
+Relations: Offers courses, affiliated faculty/staff.
+3. Student:
+Attributes: Name, ID, email, enrolled courses.
+Relations: Belongs to a department, enrolled in courses.
+4. Instructor:
+Attributes: Name, ID, email, courses teaching.
+Relations: Affiliated with a department, teaches courses
